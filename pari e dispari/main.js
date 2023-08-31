@@ -44,23 +44,23 @@ console.log('il numero random generato dal computer è: ' + computerNumber);
 
 
 //sommo e stabilisco se la somma è pari o dispari
-let pariDispariWinner = false;
+let somma = false;
 function sommaNumber(somma) {
     console.log('la somma dei due numeri è: ' + somma);
 
     if (somma % 2 === 0) {
         console.log('il numero vincente sarà pari');
-        pariDispariWinner = true;
+        somma = true;
     } else {
         console.log('il numero vincente sarà dispari');
-        pariDispariWinner = false;
+        somma = false;
     }
 }
 
 sommaNumber(userNumber + computerNumber);
 
 //controllo cosa aveva scelto l'utente e stabilisco il vincitore
-if ((pariDispari === 'pari' && pariDispariWinner === true) || (pariDispari === 'dispari' && pariDispariWinner === false)) {
+if ((pariDispari === 'pari' && somma === true) || (pariDispari === 'dispari' && somma === false)) {
     console.log('HAI VINTO!!!');
     document.querySelector('h1').innerHTML = 'HAI VINTO!!!';
 } else {
