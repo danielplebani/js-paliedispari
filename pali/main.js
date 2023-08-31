@@ -1,7 +1,7 @@
 /*
 Chiedere all’utente di inserire una parola Creare una funzione per capire se la parola inserita è palindroma
 */
-
+/*
 function checkPalindrome(userWord) {
     console.log('hai scelto: ' + userWord);
 
@@ -15,9 +15,8 @@ function checkPalindrome(userWord) {
 
 const word = prompt('inserisci una parola a tua scelta!');
 checkPalindrome(word);
+*/
 
-
-/*
 function checkPalindrome(userWord) {
     console.log('hai scelto: ' + userWord);
 
@@ -32,4 +31,4 @@ function checkPalindrome(userWord) {
 
 const word = prompt('inserisci una parola a tua scelta!');
 checkPalindrome(word);
-*/
+
